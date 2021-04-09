@@ -10,9 +10,10 @@
 		"editor.codeActionsOnSave": {
 			"source.fixAll": true
 		},
-		"python.formatting.provider": "black",
+		"editor.formatOnSaveMode": "file",
+		"python.formatting.provider": "autopep8",
 		"[python]": {
-			"editor.formatOnPaste": false
+			"editor.formatOnPaste": true
 		}
 	}
 }
