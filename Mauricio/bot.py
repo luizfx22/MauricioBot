@@ -104,7 +104,7 @@ class Mauricio(commands.Bot):
             return None
 
         Guild = self.get_guild(guildId)
-        channel = Guild.get_channel(675468726472015887)
+        channel = Guild.get_channel(830220208161030164)
 
         if not before.activity:
             print(f"{before} iniciou {after.activity.name}")
