@@ -106,7 +106,7 @@ class Mauricio(commands.Bot):
         Guild = self.get_guild(guildId)
         channel = Guild.get_channel(830220208161030164)
 
-        if not before.activity:
+        if not before.activity and after.activity:
             print(f"{before} iniciou {after.activity.name}")
 
             userDBInstance = collection.find_one({
