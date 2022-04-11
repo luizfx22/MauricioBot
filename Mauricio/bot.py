@@ -327,7 +327,7 @@ class Mauricio(commands.Bot):
             )
             return None
 
-        print("Pintão")
+        print("End")
 
 
 client = Mauricio(command_prefix="...", self_bot=False, intents=intents)
